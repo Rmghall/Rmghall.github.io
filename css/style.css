@@ -236,9 +236,16 @@ h2{
     margin-bottom:10px;
     text-align:center;
   }
+  .splashp{
+    font-size:10px;
+  }
+  .splashh2{
+    font-size:14px;
+  }
 }
 @media screen and (max-width:245px){
   p{
     font-size:.67em;
   }
+
 }
