@@ -40,10 +40,6 @@ nav a{
 a{
   font-size:1.2em;
 }
-.egg{
-  text-decoration: none;
-  color:white;
-}
 nav a:hover{
   color:var(--txt-hover);
 }
@@ -136,7 +132,7 @@ h3{
   text-align:center;
 }
 .img-topper{
-  width:30%;
+  max-width:30%;
   height:auto;
 }
 /* end of the about me page */
@@ -202,7 +198,6 @@ h2{
   }
   .p-border{
     border: 2px solid #ff6f59;
-    font-size: 6px;
   }
   #top-left /*this becomes Top-Middile only putting this comment here for future notes*/{
     border: 2px solid #ff6f59;
@@ -210,15 +205,8 @@ h2{
     margin-right:40px;
     text-align:center;
   }
-  .p-border{
-    font-size: 10px;
-  }
   .img-topper{
-    width:60%;
-    height:auto
-  }
-  .img-topper-best{
-    width:100%;
+    max-width:60%;
     height:auto
   }
   #top-right{
